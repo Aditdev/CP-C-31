@@ -17,4 +17,6 @@ int main(){
             printf("%d is in the range of 30 to 39", x);
     else
             printf("%d is out of range", x);
+    
+    return 0;
 }
