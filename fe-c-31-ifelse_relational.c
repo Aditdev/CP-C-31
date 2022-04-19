@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 int main(){
-    int ch, x;
+    int x;
     printf("Enter a number in the range 0 to 39:\n");
     scanf("%d", &x);
-    //ch = x/10;
     if (x>= 0 && x<10)
             printf("%d is in the range of 0 to 9", x);
     else if (x>= 10 && x<20)
@@ -17,4 +16,5 @@ int main(){
             printf("%d is in the range of 30 to 39", x);
     else
             printf("%d is out of range", x);
+    return 0;
 }
