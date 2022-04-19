@@ -7,7 +7,8 @@ int main(){
     printf("Enter a number in the range 0 to 39:\n");
     scanf("%d", &x);
     ch = x/10;
-    switch(ch){
+    switch(ch)
+    {
         case 0:
             printf("%d is in the range of 0 to 9",x);
             break;
@@ -23,6 +24,6 @@ int main(){
         default:
             printf("%d is out of range",x);
             break;
-        
     }
+    return 0;
 }
