@@ -6,10 +6,7 @@ For-Loop
 int main()
 {
    int i=1,j,k;
-   for (i=1;i<=5;i++){
-       for (j=1;j<=i;j++)
-       printf("%d",j);
-   printf("\n");
-   }
+   for (i=1;i<=5;i++)
+   printf("%d\n",i);
    return 0;
 }
