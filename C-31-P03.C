@@ -10,7 +10,7 @@ int add(int a,int b)  {
 
 int main(){
 	int addn,a,b;
-	clrscr();
+//	clrscr();
 	printf("This is the program to add two numbers using Functions\nEnter two integer value numbers:\n");
 	scanf("%d %d",&a,&b);
 	addn=add(a,b);
