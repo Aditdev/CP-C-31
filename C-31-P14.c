@@ -38,8 +38,10 @@ int main ()
         scanf ("%d", &arr2[i][j]);
     printf ("\n");
     }
+    printf("The First Matrix elements are:\n");
     display(arr1);
     printf("\n");
+    printf("The Second Matrix elements are:\n");
     display(arr2);
   return 0;
 }
